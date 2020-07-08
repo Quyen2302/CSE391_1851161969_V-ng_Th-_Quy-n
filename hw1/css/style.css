@@ -1,0 +1,217 @@
+
+/*Style Bai 1*/
+#bai1 h1 {
+    text-align: center;
+}
+#bai1 h2 {
+    text-decoration: underline;
+}
+#bai1 p {
+    font-weight: bold;
+    margin-top: 15px;
+}
+.text-center {
+    text-align: center;
+}
+
+/*Style Bai 2*/
+#bai2 h1 {
+    text-align: center;
+    color: green;
+}
+#bai2 h2 {
+    text-decoration: underline;
+}
+#bai2 p {
+    margin-top: 15px;
+}
+#bai2 .title {
+    text-align: center;
+    background-color: #fdbff5;
+    color: #ff77bc ;
+    font-size: 26px;
+    font-weight: bold;
+}
+#bai2 .baitho {
+    text-align: center;
+    background-color: #fbe6bf;
+}
+#bai2 .txt1{
+    color: blue;
+    font-style: italic;
+}
+#bai2 .txt2{
+    color: red;
+    font-style: italic;
+}
+#bai2 .txt3{
+    color: green;
+    font-style: italic;
+}
+
+hr { 
+    width: 250px; 
+    margin: 10px auto;
+    text-align: center;
+}
+
+/*Style Bai 3*/
+#bai3 h1 {
+    text-align: center;
+    color: darkgreen;
+}
+#bai3 strong {
+    text-decoration: underline;
+}
+#bai3 span {
+    color: red;
+}
+pre {
+    background-color: #ccc;
+    color: blue;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+/*Style Bai 4*/
+#bai4 h2 {
+    color: pink;
+    text-align: center;
+}
+#bai4 ol {
+    margin-top: 30px;
+}
+#bai4 ol p {
+    background-color: pink;
+    width: 100px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+#bai4 ul  {
+    list-style: disc;
+    padding-left: 20px;
+}
+#bai4 li  {
+    font-size: 20px;
+}
+#bai4 .copyright { margin-top: 20px; font-size: 20px;}
+
+.left { float: left; }
+.hr-bai4 {width: 100%; 
+    padding-left: 0px !important;     
+    margin: 30px 0px;}
+.right ol { padding-left: 270px; }
+.clear {
+    clear: both;
+}
+
+/*Style Bai 5*/
+#bai5 {
+    background-color: #fbe6bf;
+}
+#bai5 h1 {
+    color: orange;
+}
+#bai5 .right {
+    margin-left: 550px;
+}
+#tb-menu  {
+     border-collapse: collapse;
+     border: 3px solid violet;
+     width: 60%;
+     padding: 10px;
+}
+#tb-menu th {
+    background-color: #e08e00; 
+    color: #fff;
+}
+#tb-menu td,#tb-menu th {
+    padding: 5px;
+    border: 3px solid violet;
+}
+#tb-menu tr:nth-child(3n){background-color: #fbe6bf;}
+#tb-menu tr:nth-child(even){background-color: #fff;}
+
+#bai6 h1{
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#bai6 table {
+ border-collapse: collapse;
+ text-align: center;
+ margin: 0 auto;
+ border: 1px solid #ff9933;
+}
+#bai6 th, #bai6 td {
+    border: 1px solid #ff9933;
+}
+#bai6 th {
+    background-color: red;
+    color: #fff;
+}
+td.red.center {
+    color: red;
+}
+
+
+/*Style Bai 7*/
+#bai7 h1 {
+    color: #13af13;
+    text-align: center;
+}
+.tb-bai7 {
+    border-collapse: collapse;
+    background-color: #b2ffb2;  
+    color: #085608;  
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 10px;
+
+}
+.tb-bai7, .tb-bai7 td, .tb-bai7 th {
+    border: 1px solid blue;
+    padding: 10px;
+}
+.red{
+    color: red;
+    text-align: center;
+}
+
+/*Style Bai 8*/
+#thucdon ul {
+    list-style: disc;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+/*Style menu.html*/
+*{
+    padding: 0px; 
+    margin: 0px;
+}
+
+#menu{
+    width: 240px; 
+    height: 310px;
+    background: #0066cc; 
+    text-align: center;
+    margin-left: 8px;
+}
+#menu ul{
+    list-style: none; 
+}
+#menu ul li{
+    border-bottom: 1px solid #fff;
+}
+#menu ul li a{
+    text-decoration: none; 
+    padding: 10px 0px;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+}
+#menu ul li a:hover{
+    background: #ff9933;
+}
