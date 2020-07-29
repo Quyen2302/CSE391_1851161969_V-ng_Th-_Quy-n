@@ -1,10 +1,17 @@
-.circle {
-width: 200px;
-height: 200px;
-border-radius: 50%; 
-position: absolute; 
-margin: -100px 0 0 -100px; 
-background-color: chartreuse; 
-top: 50%; 
-left: 50%; 
+*{
+    font-size: 20px;
+    font-family: Tahoma;
+    margin: 0px auto;
+    padding: 0px;
+
+}
+.container{
+ 
+    display: flex;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%;
 }
