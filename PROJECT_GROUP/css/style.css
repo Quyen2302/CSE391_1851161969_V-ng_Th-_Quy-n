@@ -77,3 +77,95 @@ body {
 .wrapper header.header .top-header nav.navbar .button-search {
     display: none;
 }
+.wrapper .nav-header {
+    height: 62px;
+    line-height: 62px;
+    background: #f7f7f7;
+}
+.wrapper .nav-header .row {
+    width: 100%;
+}
+.wrapper .nav-header nav.navbar {
+    margin: 0;
+    padding: 0;
+}
+.wrapper .nav-header nav.navbar ul.navbar-nav li.nav-item {
+    position: relative;
+    padding: 0 10px;
+}
+.wrapper .nav-header nav.navbar ul.navbar-nav li.nav-item:last-child {
+    border-right: none;
+}
+.wrapper .nav-header nav.navbar ul.navbar-nav li.nav-item:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 60px;
+    border-radius: 0px;
+    border: none;
+    min-width: 170px;
+}
+.wrapper .nav-header nav.navbar ul.navbar-nav li.nav-item a.nav-link.nav-link-once {
+    line-height: 20px;
+    position: relative;
+    display: block;
+    white-space: nowrap;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    min-width: 80px;
+    text-align: center;
+    font-weight: 400;
+    padding: 5px 10px;
+}
+.wrapper .nav-header nav.navbar ul.navbar-nav li.nav-item a.nav-link.nav-link-once:hover .icon img {
+    background: #fff;
+}
+.wrapper .nav-header nav.navbar ul.navbar-nav li.nav-item a.nav-link.nav-link-once:hover {
+    background: #000;
+    color: #fff;
+}
+.wrapper .nav-header nav.navbar ul.navbar-nav li.nav-item a.nav-link.nav-link-once .icon img {
+    max-width: 32px;
+    max-height: 32px;
+    background: transparent;
+}
+.wrapper .nav-header nav.navbar ul.navbar-nav li.nav-item ul.submenu-level1-childrent:before {
+    position: absolute;
+    content: "";
+    top: -20px;
+    width: 50%;
+    height: 20px;
+}
+.wrapper .nav-header nav.navbar ul.navbar-nav li.nav-item ul.submenu-level1-childrent li.ps-relative {
+    position: relative;
+}
+.wrapper .nav-header nav.navbar ul.navbar-nav li.nav-item ul.submenu-level1-childrent li.ps-relative a.nav-link {
+    font-size: 13px;
+    line-height: 26px;
+    color: #333;
+    transition: 0.3s;
+    padding: 8px 0;
+}
+.wrapper .nav-header nav.navbar ul.navbar-nav li.nav-item ul.submenu-level1-childrent li.ps-relative a.nav-link span.icon-left {
+    visibility: hidden;
+}
+.wrapper .nav-header nav.navbar ul.navbar-nav li.nav-item ul.submenu-level1-childrent li.ps-relative a.nav-link span.icon-right {
+    margin-left: 5px;
+}
+.wrapper .nav-header nav.navbar ul.navbar-nav li.nav-item ul.submenu-level1-childrent li.ps-relative a.nav-link:hover {
+    color: #e11b1e;
+}
+.wrapper .nav-header nav.navbar ul.navbar-nav li.nav-item ul.submenu-level1-childrent li.ps-relative a.nav-link:hover span.icon-left {
+    visibility: visible;
+    margin-right: 5px;
+}
+.wrapper .nav-header nav.navbar ul.navbar-nav li.nav-item ul.submenu-level1-childrent li.ps-relative a.nav-link:hover span.icon-right {
+    visibility: hidden;
+}
+
