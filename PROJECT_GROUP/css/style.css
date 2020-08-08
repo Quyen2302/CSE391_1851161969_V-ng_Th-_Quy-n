@@ -224,4 +224,19 @@ body {
     color: #fac93b;
     cursor: pointer;
 }
+.search-mobile {
+    display: none;
+}
+@media (max-width: 767px) {
+    .wrapper header.header .top-header nav.navbar ul.navbar-nav li.nav-item .form-search-top input[type="text"] {
+        display: none;
+    }
+    .wrapper header.header .top-header nav.navbar ul.navbar-nav li.nav-item img.img-hotline {
+        display: none;
+    }
+    .wrapper header.header .top-header nav.navbar ul.navbar-nav li.nav-item a.nav-link.cart {
+        background: lavender;
+        width: 50px;
+    }
+}
 
