@@ -168,6 +168,25 @@ body {
 .wrapper .nav-header nav.navbar ul.navbar-nav li.nav-item ul.submenu-level1-childrent li.ps-relative a.nav-link:hover span.icon-right {
     visibility: hidden;
 }
+.wrapper .breadcrumb-bt-banner .breadcrumb {
+    background: transparent;
+}
+.wrapper .breadcrumb-bt-banner .breadcrumb li.breadcrumb-item a {
+    text-decoration: none;
+    color: #7d7d7d;
+}
+.wrapper .breadcrumb-bt-banner .breadcrumb li.breadcrumb-item:before {
+    content: "\f105";
+    font-family: "FontAwesome";
+}
+.wrapper .breadcrumb-bt-banner .breadcrumb li.breadcrumb-item:first-child:before {
+    content: "";
+}
+.wrapper .breadcrumb-bt-banner .breadcrumb li.breadcrumb-item.active {
+    color: #333;
+    font-weight: 600;
+}
+
 .wrapper footer.footer .footer-center {
     background: #252525;
     color: #8c8c8c;
