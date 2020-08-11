@@ -334,5 +334,87 @@ body {
         background: lavender;
         width: 50px;
     }
+    .wrapper header.header .top-header nav.navbar ul.navbar-nav-first {
+    display: none;
+    }
+    .wrapper header.header .top-header nav.navbar ul.navbar-nav-second {
+        display: none;
+    }
+    .wrapper header.header .top-header nav.navbar ul.nav-card-mobile {
+        display: block !important;
+    }
+    .wrapper header.header .top-header nav.navbar ul.nav-card-mobile li.nav-item a.nav-link.cart {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        color: #7d7d7d;
+        height: 60px;
+        width: 40px;
+    }
+    .wrapper header.header .top-header nav.navbar ul.nav-card-mobile li.nav-item a.nav-link.cart .fa {
+        font-size: 28px;
+    }
+    .wrapper header.header .top-header nav.navbar ul.nav-card-mobile li.nav-item a.nav-link.cart .point-cart {
+        position: absolute;
+        background: #ff6517;
+        height: 20px;
+        width: 20px;
+        display: inline-block;
+        border-radius: 50%;
+        margin: auto;
+        top: 0;
+        right: 0;
+    }
+    .wrapper header.header .top-header nav.navbar ul.nav-card-mobile li.nav-item a.nav-link.cart .point-cart span {
+        position: absolute;
+        color: #fff;
+        top: -21px;
+        right: 6px;
+    }
+    .wrapper header.header .top-header nav.navbar a.navbar-brand {
+        max-width: 230px;
+        margin-left: 10px;
+    }
+    .wrapper header.header .top-header nav.navbar a.navbar-brand img {
+        width: 90%;
+    }
+    .wrapper header.header .top-header nav.navbar .button-search {
+        display: block;
+        color: #7d7d7d;
+        border: 1px solid gray;
+    }
+    .wrapper .nav-header {
+        display: none;
+    }
+    .wrapper .nav-header .row {
+        width: 100%;
+    }
+    .wrapper .search-mobile {
+        display: block;
+        padding: 5px 20px;
+        background: #ccc;
+    }
+    .wrapper .search-mobile input[type="text"] {
+        font-size: 14px;
+    }
+    .wrapper .search-mobile button.btn-search {
+        background-color: #eee;
+        border: 1px solid #ccc;
+        color: #555;
+        font-size: 14px;
+    }
+    .wrapper .d-sm-nonee {
+        display: none;
+    }
+    .wrapper .nav-left .category-xs-list {
+        display: inline-block;
+    }
+    .wrapper .nav-left .category-xs-list .child-nav-left {
+        margin-left: 100px;
+    }
+    .wrapper .sort-products {
+        display: none;
+    }
+
 }
 
